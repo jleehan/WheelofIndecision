@@ -3,7 +3,7 @@
 A "pick a random option from a list" spinner (pickerwheel.com-style) for the
 same M5Stack Cardputer ADV + external 240x320 ILI9341 (as seen in [skizzophrenic's M5PORKCHOP_DualScreen repository](https://github.com/skizzophrenic/M5PORKCHOP_DualScreen)). Firmware is designed to be compatible with [M5Launcher firmware](https://bmorcelli.github.io/Launcher/catalog.html)
 
-## Hardware (identical to the TamaFi port)
+## Hardware
 
 | ILI9341 pin | Cardputer ADV GPIO |
 |---|---|
@@ -50,9 +50,6 @@ pio run
 ```
 
 Copy the merged `.bin` to the SD card, boot into M5Launcher, install/run.
-If USB does work for you (or you've since resolved it / tried a different
-machine per the TamaFi handoff's suggestion), `pio run -t upload` and
-`pio device monitor` should work normally too.
 
 ## File structure
 
