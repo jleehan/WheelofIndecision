@@ -1,7 +1,7 @@
 # Decision Wheel — Cardputer ADV Port
 
 A "pick a random option from a list" spinner (pickerwheel.com-style) for the
-same M5Stack Cardputer ADV + external 240x320 ILI9341. As seen in [skizzophrenic's M5PORKCHOP_DualScreen](https://github.com/skizzophrenic/M5PORKCHOP_DualScreen) repository
+same M5Stack Cardputer ADV + external 240x320 ILI9341. As seen in [skizzophrenic's M5PORKCHOP_DualScreen repository](https://github.com/skizzophrenic/M5PORKCHOP_DualScreen)
 
 **Status: written but NOT build-verified.** This sandbox doesn't have
 network access to the Espressif toolchain (`platform = espressif32` pulls
